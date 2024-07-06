@@ -1,0 +1,15 @@
+div.code-block__code {
+  background-color: #fbfaf9 !important;
+}
+
+pre div.code-block__code code,
+code[class*='language-'] {
+  font-family: 'JetBrains Mono', 'PlemolJP' !important;
+  background-color: transparent !important;
+  color: #222 !important;
+  text-shadow: none !important;
+}
+
+code[class*='language-'] span {
+  filter: brightness(0.9) !important;
+}
